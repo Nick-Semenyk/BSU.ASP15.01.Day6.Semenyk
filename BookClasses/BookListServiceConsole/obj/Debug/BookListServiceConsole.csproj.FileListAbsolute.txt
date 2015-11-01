@@ -16,3 +16,4 @@ E:\REPOS\BSU.ASP15.01.Day6.Semenyk\BookClasses\BookListServiceConsole\bin\Debug\
 E:\REPOS\BSU.ASP15.01.Day6.Semenyk\BookClasses\BookListServiceConsole\bin\Debug\BookClasses.pdb
 E:\REPOS\BSU.ASP15.01.Day6.Semenyk\BookClasses\BookListServiceConsole\bin\Debug\NLog.xml
 E:\REPOS\BSU.ASP15.01.Day6.Semenyk\BookClasses\BookListServiceConsole\obj\Debug\BookListServiceConsole.csprojResolveAssemblyReference.cache
+E:\REPOS\BSU.ASP15.01.Day6.Semenyk\BookClasses\BookListServiceConsole\bin\Debug\NLog.config
