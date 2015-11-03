@@ -1,0 +1,4 @@
+AppDomain._nExecuteAssembly => Program.Main => BookListService..ctor BookListService with default stream was created.
+AppDomain._nExecuteAssembly => Program.Main => BookListService.FindByTag FindByTag: matching books were found
+AppDomain.ExecuteAssembly => AppDomain._nExecuteAssembly => Program.Main Test
+AppDomain._nExecuteAssembly => Program.Main => BookListService.Dispose Dispose was called

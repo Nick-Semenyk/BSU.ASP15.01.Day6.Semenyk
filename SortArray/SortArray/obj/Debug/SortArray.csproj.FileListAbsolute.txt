@@ -1,0 +1,5 @@
+E:\REPOS\BSU.ASP15.01.Day4.Semenyk\SortArray\SortArray\bin\Debug\SortArray.dll
+E:\REPOS\BSU.ASP15.01.Day4.Semenyk\SortArray\SortArray\bin\Debug\SortArray.pdb
+E:\REPOS\BSU.ASP15.01.Day4.Semenyk\SortArray\SortArray\obj\Debug\SortArray.csprojResolveAssemblyReference.cache
+E:\REPOS\BSU.ASP15.01.Day4.Semenyk\SortArray\SortArray\obj\Debug\SortArray.dll
+E:\REPOS\BSU.ASP15.01.Day4.Semenyk\SortArray\SortArray\obj\Debug\SortArray.pdb

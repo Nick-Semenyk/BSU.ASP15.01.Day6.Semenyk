@@ -1,0 +1,9 @@
+E:\REPOS\BSU.ASP15.01.Day4.Semenyk\SortArray\SortArray.Tests\bin\Debug\SortArray.Tests.dll
+E:\REPOS\BSU.ASP15.01.Day4.Semenyk\SortArray\SortArray.Tests\bin\Debug\SortArray.Tests.pdb
+E:\REPOS\BSU.ASP15.01.Day4.Semenyk\SortArray\SortArray.Tests\bin\Debug\nunit.framework.dll
+E:\REPOS\BSU.ASP15.01.Day4.Semenyk\SortArray\SortArray.Tests\bin\Debug\SortArray.dll
+E:\REPOS\BSU.ASP15.01.Day4.Semenyk\SortArray\SortArray.Tests\bin\Debug\nunit.framework.xml
+E:\REPOS\BSU.ASP15.01.Day4.Semenyk\SortArray\SortArray.Tests\bin\Debug\SortArray.pdb
+E:\REPOS\BSU.ASP15.01.Day4.Semenyk\SortArray\SortArray.Tests\obj\Debug\SortArray.Tests.csprojResolveAssemblyReference.cache
+E:\REPOS\BSU.ASP15.01.Day4.Semenyk\SortArray\SortArray.Tests\obj\Debug\SortArray.Tests.dll
+E:\REPOS\BSU.ASP15.01.Day4.Semenyk\SortArray\SortArray.Tests\obj\Debug\SortArray.Tests.pdb

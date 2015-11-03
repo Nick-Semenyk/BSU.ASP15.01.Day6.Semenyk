@@ -1,0 +1,18 @@
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClass.Tests\bin\Debug\GCDCalculationClass.Tests.dll
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClass.Tests\bin\Debug\GCDCalculationClass.Tests.pdb
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClass.Tests\bin\Debug\GCDCalculationClass.dll
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClass.Tests\bin\Debug\nunit.framework.dll
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClass.Tests\bin\Debug\GCDCalculationClass.pdb
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClass.Tests\bin\Debug\nunit.framework.xml
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClass.Tests\obj\Debug\GCDCalculationClass.Tests.csprojResolveAssemblyReference.cache
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClass.Tests\obj\Debug\GCDCalculationClass.Tests.dll
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClass.Tests\obj\Debug\GCDCalculationClass.Tests.pdb
+E:\REPOS\BSU.ASP15.01.Day2.Semenyk\GCDCalculationClass\GCDCalculationClass.Tests\bin\Debug\GCDCalculationClass.Tests.dll
+E:\REPOS\BSU.ASP15.01.Day2.Semenyk\GCDCalculationClass\GCDCalculationClass.Tests\bin\Debug\GCDCalculationClass.Tests.pdb
+E:\REPOS\BSU.ASP15.01.Day2.Semenyk\GCDCalculationClass\GCDCalculationClass.Tests\bin\Debug\GCDCalculationClass.dll
+E:\REPOS\BSU.ASP15.01.Day2.Semenyk\GCDCalculationClass\GCDCalculationClass.Tests\bin\Debug\nunit.framework.dll
+E:\REPOS\BSU.ASP15.01.Day2.Semenyk\GCDCalculationClass\GCDCalculationClass.Tests\bin\Debug\GCDCalculationClass.pdb
+E:\REPOS\BSU.ASP15.01.Day2.Semenyk\GCDCalculationClass\GCDCalculationClass.Tests\bin\Debug\nunit.framework.xml
+E:\REPOS\BSU.ASP15.01.Day2.Semenyk\GCDCalculationClass\GCDCalculationClass.Tests\obj\Debug\GCDCalculationClass.Tests.csprojResolveAssemblyReference.cache
+E:\REPOS\BSU.ASP15.01.Day2.Semenyk\GCDCalculationClass\GCDCalculationClass.Tests\obj\Debug\GCDCalculationClass.Tests.dll
+E:\REPOS\BSU.ASP15.01.Day2.Semenyk\GCDCalculationClass\GCDCalculationClass.Tests\obj\Debug\GCDCalculationClass.Tests.pdb

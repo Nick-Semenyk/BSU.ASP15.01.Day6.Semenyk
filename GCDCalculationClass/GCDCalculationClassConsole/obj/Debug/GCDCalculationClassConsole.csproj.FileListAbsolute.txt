@@ -1,0 +1,14 @@
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClassConsole\bin\Debug\GCDCalculationClassConsole.exe.config
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClassConsole\bin\Debug\GCDCalculationClassConsole.exe
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClassConsole\bin\Debug\GCDCalculationClassConsole.pdb
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClassConsole\bin\Debug\GCDCalculationClass.dll
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClassConsole\bin\Debug\GCDCalculationClass.pdb
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClassConsole\obj\Debug\GCDCalculationClassConsole.csprojResolveAssemblyReference.cache
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClassConsole\obj\Debug\GCDCalculationClassConsole.exe
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClassConsole\obj\Debug\GCDCalculationClassConsole.pdb
+E:\REPOS\BSU.ASP15.01.Day2.Semenyk\GCDCalculationClass\GCDCalculationClassConsole\bin\Debug\GCDCalculationClassConsole.exe.config
+E:\REPOS\BSU.ASP15.01.Day2.Semenyk\GCDCalculationClass\GCDCalculationClassConsole\obj\Debug\GCDCalculationClassConsole.exe
+E:\REPOS\BSU.ASP15.01.Day2.Semenyk\GCDCalculationClass\GCDCalculationClassConsole\obj\Debug\GCDCalculationClassConsole.pdb
+E:\REPOS\BSU.ASP15.01.Day6.Semenyk\GCDCalculationClass\GCDCalculationClassConsole\bin\Debug\GCDCalculationClassConsole.exe.config
+E:\REPOS\BSU.ASP15.01.Day6.Semenyk\GCDCalculationClass\GCDCalculationClassConsole\obj\Debug\GCDCalculationClassConsole.exe
+E:\REPOS\BSU.ASP15.01.Day6.Semenyk\GCDCalculationClass\GCDCalculationClassConsole\obj\Debug\GCDCalculationClassConsole.pdb

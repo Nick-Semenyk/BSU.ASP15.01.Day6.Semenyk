@@ -1,0 +1,4 @@
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClass\bin\Debug\GCDCalculationClass.dll
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClass\bin\Debug\GCDCalculationClass.pdb
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClass\obj\Debug\GCDCalculationClass.dll
+E:\7 сем\EPAM\Day2\GCDCalculationClass\GCDCalculationClass\obj\Debug\GCDCalculationClass.pdb
