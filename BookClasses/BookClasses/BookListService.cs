@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.IO;
@@ -11,41 +12,29 @@ using NLog;
 
 namespace BookClasses
 {
-    public class BookListService : IDisposable
+    public class BookListService : ICollection<Book>
     {
-        private Stream stream;
         private List<Book> books;
-        private bool disposed = false;
         private static Logger logger = LogManager.GetCurrentClassLogger();
+
+        public int Count
+        {
+            get { return books.Count(); }
+        }
+
+        public bool IsReadOnly
+        {
+            get { return false; }
+        }
 
         public BookListService()
         {
-            stream = null;
             books = new List<Book>();
-            logger.Info("BookListService without default stream was created.");
+            logger.Info("BookListService was created.");
         }
 
-        public BookListService(Stream stream)
+        public void Add(Book book)
         {
-            this.stream = stream;
-            books = GetBooks();
-            logger.Info("BookListService with default stream was created.");
-        }
-
-        ~BookListService()
-        {
-            if (!disposed)
-                Dispose();
-            logger.Info("Destructor was called.");
-        }
-
-        public void AddBook(Book book)
-        {
-            if (disposed)
-            {
-                logger.Error("AddBook: BookListService already disposed");
-                throw new ObjectDisposedException(nameof(this.GetType));
-            }
             if (!books.Contains(book))
             {
                 books.Add(book);
@@ -59,11 +48,6 @@ namespace BookClasses
 
         public List<Book> FindByTag(Predicate<Book> predicate)
         {
-            if (disposed)
-            {
-                logger.Error("FindByTag: BookListService already disposed");
-                throw new ObjectDisposedException(nameof(this.GetType));
-            }
             if (predicate == null)
             {
                 logger.Error("FindByTag: argument is null");
@@ -76,11 +60,6 @@ namespace BookClasses
 
         public void SortBooksByTag(IComparer<Book> comparer)
         {
-            if (disposed)
-            {
-                logger.Error("SortBooksByTag: BookListService already disposed");
-                throw new ObjectDisposedException(nameof(this.GetType));
-            }
             if (comparer == null)
             {
                 logger.Error("SortBooksByTag: argument is null");
@@ -90,13 +69,8 @@ namespace BookClasses
             logger.Info("SortByTag: books were sorted successfully");
         }
 
-        public void RemoveBook(Book book)
+        public bool Remove(Book book)
         {
-            if (disposed)
-            {
-                logger.Error("RemoveBook: BookListService already disposed");
-                throw new ObjectDisposedException(nameof(this.GetType));
-            }
             if (books.Contains(book))
             {
                 books.Remove(book);
@@ -107,6 +81,7 @@ namespace BookClasses
                 logger.Error("RemoveBook: no such book in BookListService");
                 throw new BookDoesntExistException();
             }
+            return true;
         }
 
         public void Load(Stream input)
@@ -116,8 +91,7 @@ namespace BookClasses
                 logger.Error("Load: argument is null");
                 throw new ArgumentNullException();
             }
-            stream = input;
-            GetBooks();
+            books = GetBooks(input);
             logger.Info("Load: books were loaded successfully");
         }
 
@@ -128,28 +102,43 @@ namespace BookClasses
                 logger.Error("Save: argument is null");
                 throw new ArgumentNullException();
             }
-            
-            stream = output;
-            WriteBooks();
+            WriteBooks(output);
             logger.Info("Save: books were saved successfully");
         }
 
-        public void Dispose()
+        public void Clear()
         {
-            logger.Info("Dispose was called");
-            WriteBooks();
-            disposed = true;
+            books.Clear();
         }
 
-        private List<Book> GetBooks()
+        public bool Contains(Book item)
         {
-            if (disposed)
-            {
-                logger.Error("BookListService already disposed.");
-                throw new ObjectDisposedException(nameof(this.GetType));
-            }
+            return books.Contains(item);
+        }
+
+        public void CopyTo(Book[] array, int arrayIndex)
+        {
+            if (array == null)
+                throw new ArgumentNullException();
+            if (arrayIndex < 0)
+                throw new ArgumentOutOfRangeException();
+            books.CopyTo(array, arrayIndex);
+        }
+
+        public IEnumerator<Book> GetEnumerator()
+        {
+            return books.GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return books.GetEnumerator();
+        }
+
+        private List<Book> GetBooks(Stream input)
+        {
             List<Book> result = new List<Book>();
-            BinaryReader reader = new BinaryReader(stream);
+            BinaryReader reader = new BinaryReader(input);
             try
             {
                 while (reader.BaseStream.Position != reader.BaseStream.Length)
@@ -171,19 +160,13 @@ namespace BookClasses
             return result;
         }
 
-        private void WriteBooks()
+        private void WriteBooks(Stream output)
         {
-            if (stream == null)
-                return;
-            if (disposed)
-            {
-                throw new ObjectDisposedException(nameof(this.GetType));
-            }
-            BinaryWriter writer = new BinaryWriter(stream);
+            BinaryWriter writer = new BinaryWriter(output);
             writer.BaseStream.Position = 0;
             try
             {
-                foreach(Book book in books)
+                foreach (Book book in books)
                 {
                     writer.Write(book.Title);
                     writer.Write(book.Author);
