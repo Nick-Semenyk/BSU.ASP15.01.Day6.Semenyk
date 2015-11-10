@@ -2,3 +2,7 @@ AppDomain._nExecuteAssembly => Program.Main => BookListService..ctor BookListSer
 AppDomain._nExecuteAssembly => Program.Main => BookListService.FindByTag FindByTag: matching books were found
 AppDomain.ExecuteAssembly => AppDomain._nExecuteAssembly => Program.Main Test
 AppDomain._nExecuteAssembly => Program.Main => BookListService.Dispose Dispose was called
+AppDomain._nExecuteAssembly => Program.Main => BookListService..ctor BookListService was created.
+AppDomain._nExecuteAssembly => Program.Main => BookListService.Load Load: books were loaded successfully
+AppDomain._nExecuteAssembly => Program.Main => BookListService.FindByTag FindByTag: matching books were found
+AppDomain.ExecuteAssembly => AppDomain._nExecuteAssembly => Program.Main Test

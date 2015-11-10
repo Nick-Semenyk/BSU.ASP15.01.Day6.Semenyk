@@ -17,7 +17,8 @@ namespace BookListServiceConsole
             Stream stream = new FileStream("books.b", FileMode.OpenOrCreate);
             Book book = new Book();
             Logger logger = LogManager.GetCurrentClassLogger();
-            BookListService service = new BookListService(stream);
+            BookListService service = new BookListService();
+            service.Load(stream);
             //book.Author = "author2";
             //book.Title = "title";
             //book.Length = 100;
@@ -30,7 +31,6 @@ namespace BookListServiceConsole
             {
                 Console.WriteLine(result.ToString());
             }
-            service.Dispose();
             Console.ReadLine();
         }
     }
